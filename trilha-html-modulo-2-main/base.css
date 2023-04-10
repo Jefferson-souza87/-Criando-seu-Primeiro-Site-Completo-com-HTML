@@ -1,0 +1,171 @@
+html, body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+strong , span{
+    color: rgb(99, 56, 240);
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 15%;
+    background-color: rgb(181, 230, 230);
+    padding: 10px 20px 0px;
+}
+.menu ul{
+    padding: 20px 0 0 0;
+    margin: 0;
+}
+.menu li{
+    list-style: none;
+    margin-bottom: 10px;
+    
+}
+.menu a{
+    list-style: none;
+    text-decoration: none;
+    color: #1b0101;
+    font-weight: bold;
+    line-height: 50px;
+}
+
+li:first-child a{
+    line-height: 5px;
+}
+
+.menu a:hover{
+    color: rgb(48, 97, 230);
+    font-size: 18px;
+    
+}
+.header {
+    background-color: rgb(5, 108, 108);
+    min-height: 150px;
+    max-height: 300px;
+}
+
+.header img{
+    width: 100%;
+}
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+}
+.footer {
+    background-color: rgb(99, 56, 240);
+    min-height: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: safe;
+}
+.footer h3 p h4{
+    display: flex;
+    flex-direction: column;
+}
+.footer p{
+    color: #f1f1f1;
+}
+.tabela__horarios{
+    border: solid 1px lightskyblue;
+    width: 400px;
+    margin: 0 auto;
+}
+table{
+    margin: 0 auto;
+}
+table thead{
+    border: solid 1px black;
+    padding: 20px;
+    font: bold;
+}
+.tabela__horarios tr td{
+    border: solid 1px rgb(194, 192, 192);
+    padding: 5px;
+    text-align: center;
+}
+.tabela__horarios tr:nth-child(even){
+    background-color: rgb(194, 228, 228);
+}
+
+.local__form{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.local{
+   width: 45%;
+}
+
+.local iframe{
+    width: 100%;
+}
+
+.form{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+}
+
+fieldset{
+    border: none;
+}
+
+.form label{
+    display: flex;
+    font-weight: bold;
+    margin-top: 10px;
+    color: rgb(99, 56, 240);
+    font-size: 22px;
+}
+
+.form input {
+    padding: 10px;
+    border-radius: 3px;
+    margin-top: 2px;
+    width: 100%;
+}
+
+.estilo__label{
+    display: flex;
+    font-weight: bold;
+    margin-top: 35px;
+    color: rgb(99, 56, 240);
+    font-size: 22px;
+}
+
+textarea{
+    border-radius: 3px;
+}
+
+button{
+    background-color: rgb(99, 56, 240);
+    padding: 10px;
+    border-radius: 3px;
+    color: white;
+    font-size: 18px;
+    border: none;
+}
+
+button:hover{
+    background-color: rgb(113, 81, 216);
+    transition: linear 0.5s;
+    cursor: pointer;
+}
